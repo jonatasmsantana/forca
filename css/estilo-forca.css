@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background: #444;
+}
 
 .modal{
 	width: 100vw;
@@ -79,6 +82,8 @@ h1{
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	width: 550px;
+	background: #fff;
 	box-sizing: border-box;
 	padding-top: 20px;
 }
@@ -181,6 +186,11 @@ label{
 
 }
 
+.caixa-botao{
+	display: flex;
+	flex-direction: column;
+}
+
 .form input[type=text]{
 	text-align: center;
 	width: 90px;
@@ -254,7 +264,11 @@ label{
 	}	
 }
 
-
+@media (max-width: 550px){
+	.container{
+		width: 100vw;
+	}
+}
 
 @media (max-width: 500px){
 	.container-erros{	
@@ -282,6 +296,15 @@ label{
 	.container-erros{
 		height: 220px;
 		margin-top: -10px;
+	}
+	.form{
+		width: 228px;
+		height: 110px;
+	}
+	.caixa-botao{
+		width: 228px;
+		flex-direction: row;
+		justify-content: space-around;
 	}
 }
 
