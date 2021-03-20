@@ -38,7 +38,8 @@
 		for(i = 0; i < palavra.length; i++){
 			if(palavra.charAt(i) == x && document.getElementById("p"+(i+1)).innerHTML == ''){
 				document.getElementById("p"+(i+1)).innerHTML = palavra[i];
-				contaAcertos += 1;										
+				contaAcertos += 1;
+				document.getElementById("letra-digitada").focus();
 			}
 		}
 
@@ -55,7 +56,8 @@
 		var er = palavra.indexOf(x);				 
 		if(er == -1){					
 			document.getElementById("letras-erradas").append(x);			
-			erros += 1;					
+			erros += 1;
+			document.getElementById("letra-digitada").focus();
 		}
 		
 		const campo = document.getElementById("letra-digitada");
