@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/estilo-forca.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet"> 
+		<title>Forca</title>		
+	</head>
+	<body>
+
+		<div class="container" id="container-global">
+			<h1>forca</h1>
+			
+			<div class="container-erros gradient">
+				<div class="container-imagem">
+					<img id="img"src="img/0.png" alt="">
+				</div>
+				<div class="mostra-erros">
+					<p class="letras-erradas" id="letras-erradas"> </p>
+					  
+				</div>
+			</div>
+			
+			<div class="container-palavra gradient" id="container-palavra">
+				
+			</div>
+			<form action="" id="form1">
+				<div class="form gradient" id="form">
+					<label for="letra-user">Insira uma letra</label>
+					<input type="text" name="" id="letra-digitada" maxlength="1" autocomplete="off">
+					<input type="submit" value="Inserir" onclick="insere()" id="submit" class="gradient">
+				</div>
+				<input type="submit" value="Jogar novamente" onclick="location.reload()" id="playAgain" class="gradient">
+			</form>
+		</div>
+		<div class="modal" id="modal" onclick="fechaModal()">
+
+				<div class="cartao gradient">
+					<div>
+						<button type="button" id="fechar" class="close">X</button>
+					</div>
+					<div class="texto">
+						<p id="msgFinal1"></p>
+						<p id="msgFinal2"></p>
+					</div>
+				</div>
+			</div>
+		<script src="js/script-forca.js"></script>
+	</body>
+</html>
