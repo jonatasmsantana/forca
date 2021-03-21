@@ -213,7 +213,7 @@ label{
 	border: none;
 	cursor: pointer;
 	padding: 0 5px;
-	border-radius: 5px;
+	border-radius: 10px;
 	outline: none;
 	box-shadow: 0 8px 6px 0 rgba(0, 0,255, .7), 0 10px 20px 0 rgba(0, 0, 0, 0.18);
 }
