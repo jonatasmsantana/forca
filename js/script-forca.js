@@ -33,7 +33,7 @@
 
 	var contaAcertos = 0;
 	var erros = 0;
-	document.getElementById("letra-digitada").innerHTML.toLowerCase();
+	document.getElementById("letra-digitada").toLowerCase();
 	function insere(){
 		var x = document.getElementById("letra-digitada").value;
 		for(i = 0; i < palavra.length; i++){
