@@ -200,7 +200,7 @@ label{
 	outline: none;
 	border: 4px solid #0000cc;
 	border-radius: 10px;
-	/*text-transform: uppercase;*/
+	text-transform: lowercase;
 }
 
 #submit{
