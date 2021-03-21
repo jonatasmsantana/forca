@@ -204,8 +204,8 @@ label{
 }
 
 #submit{
-	width: 94px;
-	height: 44px;
+	width: 98px;
+	height: 48px;
 	--cor1: #000066;
 	--cor2: #0000cc;
 	color: #fff;
@@ -305,6 +305,9 @@ label{
 		width: 228px;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+	#submit{
+		box-shadow: none;
 	}
 }
 
