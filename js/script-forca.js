@@ -33,9 +33,9 @@
 
 	var contaAcertos = 0;
 	var erros = 0;
-	document.getElementById("letra-digitada").toLowerCase();
 	function insere(){
 		var x = document.getElementById("letra-digitada").value;
+		x.toLowerCase();
 		for(i = 0; i < palavra.length; i++){
 			if(palavra.charAt(i) == x && document.getElementById("p"+(i+1)).innerHTML == ''){
 				document.getElementById("p"+(i+1)).innerHTML = palavra[i];
