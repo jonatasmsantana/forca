@@ -89,10 +89,10 @@ h1{
 }
 
 .container-erros{
-	--cor1: #cc0000;
-	--cor2: #ff1a1a;
-	/*--cor1: #444;
-	--cor2: #bbb;*/
+	--cor1: #00004f;
+	--cor2: #0000dd;
+	/*--cor1: #cc0000;
+	--cor2: #ff1a1a;*/
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
