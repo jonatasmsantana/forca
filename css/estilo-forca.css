@@ -23,9 +23,7 @@ body{
 	width: 360px;
 	height: 240px;
 	--cor1: #000;
-	--cor2: #000064;
-	/*--cor1: #1a001a;
-	--cor2: #8600b3;*/
+	--cor2: #000034;
 	position: relative;
 	display: flex;
 	justify-content: center;
