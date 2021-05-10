@@ -5,4 +5,4 @@ Neste projeto eu pude aprender um pouco mais sobre:
 - Manipulação de strings;
 - Manipulação de arrays;
 - Criação de elementos HTML via JavaScript;
-- Responsividade.
+- Design responsivo utilizando media queries.
